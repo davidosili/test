@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet folder/style.css">
+    <link rel="stylesheet" href="stylesheet folder/mediaqueries.css">
+</head>
+<body>    
+    <div class="main-container">    
+        <div class="container">
+            <div class="crypto-cards-container scroll-controller">
+                <!-- Bitcoin -->
+                <div class="crypto-card" id="btc-container">
+                    <p> Bitcoin : <span id="btc-price">$0.00</span>
+                        <span id="btc-change"><span>(</span><span id="btc-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="btc-dollars">+0.00 USD</span></p>
+                </div>
+
+                <!-- Ethereum -->
+                <div class="crypto-card" id="eth-container">
+                    <p>Ethereum : <span id="eth-price">$0.00</span>
+                        <span id="eth-change"><span>(</span><span id="eth-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="eth-dollars">+0.00 USD</span></p>
+                </div>                
+
+                <!-- Litecoin -->
+                <div class="crypto-card" id="ltc-container">
+                    <p>Litecoin : <span id="ltc-price">$0.00</span>
+                        <span id="ltc-change"><span>(</span><span id="ltc-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="ltc-dollars">+0.00 USD</span></p>
+                </div>            
+
+                <!-- Bitcoin Cash -->
+                <div class="crypto-card" id="bch-container">
+                    <p>Bitcoin Cash : <span id="bch-price">$0.00</span>
+                        <span id="bch-change"><span>(</span><span id="bch-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="bch-dollars">+0.00 USD</span></p>
+                </div>        
+
+                <!-- Cardano -->
+                <div class="crypto-card" id="ada-container">
+                    <p>Cardano : <span id="ada-price">$0.00</span>
+                        <span id="ada-change"><span>(</span><span id="ada-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="ada-dollars">+0.00 USD</span></p>
+                </div>            
+
+                <!-- Polkadot -->
+                <div class="crypto-card" id="dot-container">
+                    <p>Polkadot : <span id="dot-price">$0.00</span>
+                        <span id="dot-change"><span>(</span><span id="dot-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="dot-dollars">+0.00 USD</span></p>
+                </div>            
+
+                <!-- Chainlink -->
+                <div class="crypto-card" id="link-container">
+                    <p>Chainlink : <span id="link-price">$0.00</span>
+                        <span id="link-change"><span>(</span><span id="link-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="link-dollars">+0.00 USD</span></p>
+                </div>            
+
+                <!-- Stellar -->
+                <div class="crypto-card" id="xlm-container">
+                    <p>Stellar : <span id="xlm-price">$0.00</span>
+                        <span id="xlm-change"><span>(</span><span id="xlm-change-percent">+0.00%</span><span>)</span></span>
+                    <span id="xlm-dollars">+0.00 USD</span></p>
+                </div>              
+            </div>
+        </div>
+        <div class="background-container">
+            <picture class="img">
+                <!-- For screens 768px and above -->
+                <source media="all and (min-width: 768px)" 
+                        srcset="images/leo-look-768.1d2a29fb4592122e55cd.webp" 
+                        type="image/webp">
+                <source media="all and (min-width: 768px)" 
+                        srcset="images/leo-look-768.jpg">
+                
+                <!-- For screens 480px and above -->
+                <source media="all and (min-width: 480px)" 
+                        srcset="images/leo-look-480.webp, images/leo-look-480@2x.webp 2x" 
+                        type="image/webp">
+                <source media="all and (min-width: 480px)" 
+                        srcset="images/leo-look-480.jpg, images/leo-look-480@2x.jpg 2x">
+                
+                <!-- For smaller screens (< 480px) -->
+                <source srcset="images/leo-look-320.webp, images/leo-look-320@2x.webp 2x" 
+                        type="image/webp">
+                <source srcset="images/leo-look-320.jpg, images/leo-look-320@2x.jpg 2x">
+                
+                <!-- Fallback for browsers without picture support -->
+                <img class="img" 
+                     src="images/leo-look-768.1d2a29fb4592122e55cd.webp" 
+                     alt="Responsive Leo look">
+            </picture>
+            
+             <div class="nav" id="navbar">
+                <img src="log.png/white-short-logo.png" alt="img">
+                <div class="nav-bar">
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">market</a></li>
+                    <li><a href="#">community</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">brokers</a></li>
+                    <li><a href="#">more</a></li>
+                </div>
+                <div class="left-nav">
+                    <li>
+                        <img src="log.png/—Pngtree—browser icon_4588818.png" alt="png" style="color: red;">
+                        <a href="#">eu</a>
+                    </li>
+                    <li>
+                        <img src="log.png/user.png" alt="">
+                        <a href="#"></a></li>
+                    <li><a href="#">get started</a></li>
+                </div>                
+             </div>
+             <div class="text" style="text-transform: capitalize; font-weight: bold;">
+                <h1>look first<span>/</span></h1>
+                <h1>then leap</h1>
+                <div class="sub-text">
+                    <p>the best trade requires research then commitment</p>
+                </div>
+                <div class="sign-up">
+                    <button>get started for ever</button>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="javascript folder/script.js"></script>
+</body>
+</html>
